@@ -39,3 +39,6 @@ The model will be trained with parameters of multi_class="multinomial", solver="
 
 ### Forth task train a new Logistic Regression classifier on the reduced dataset
 I used PCA to reduce the training dataset's dimensionality, with a variance ratio of 95%. I train a new Logistic Regression classifier on the reduced dataset 
+
+
+For all tasks the trained model, time of training, and accuracy on the test set in a pickle format.
